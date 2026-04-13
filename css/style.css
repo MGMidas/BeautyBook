@@ -222,3 +222,56 @@ body {
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+  /* Header */
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .header__nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero__search {
+    flex-direction: column;
+    border-radius: 16px;
+    width: 100%;
+  }
+
+  .hero__search input {
+    width: 100%;
+  }
+
+  /* Cards */
+  .salons__grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* Footer */
+  .footer__links {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
+}
