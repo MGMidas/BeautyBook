@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BeautyBook</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BeautyBook</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="header__logo">BeautyBook</div>
-    <nav class="header__nav">
-      <a href="#">Trouver un salon</a>
-      <a href="#">Comment ça marche</a>
-      <a href="#">Connexion</a>
-      <button class="btn-primary">Prendre RDV</button>
-    </nav>
-  </header>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__logo">BeautyBook</div>
+            <nav class="header__nav">
+                <a href="#">Trouver un salon</a>
+                <a href="#">Comment ça marche</a>
+                <a href="#">Connexion</a>
+                <button class="btn-primary">Prendre RDV</button>
+            </nav>
+        </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <h1>Réservez votre salon de beauté en quelques clics</h1>
-    <p>Trouvez les meilleurs salons près de chez vous et réservez instantanément</p>
-    <div class="hero__search">
-      <input type="text" placeholder="Coiffure, manucure, massage...">
-      <input type="text" placeholder="Ville ou code postal">
-      <button class="btn-primary">Rechercher</button>
-    </div>
-  </section>
+        <!-- HERO -->
+        <section class="hero">
+            <h1>Réservez votre salon de beauté en quelques clics</h1>
+            <p>Trouvez les meilleurs salons près de chez vous et réservez
+                instantanément</p>
+            <div class="hero__search">
+                <input type="text" placeholder="Coiffure, manucure, massage...">
+                <input type="text" placeholder="Ville ou code postal">
+                <button class="btn-primary">Rechercher</button>
+            </div>
+        </section>
 
-</body>
+        <!-- SALONS EN VEDETTE -->
+        <section class="salons">
+            <h2>Salons en vedette</h2>
+            <p class="salons__subtitle">Les établissements les mieux notés près
+                de vous</p>
+
+            <div class="salons__grid">
+
+                <div class="card">
+                    <div class="card__image"></div>
+                    <div class="card__body">
+                        <h3>Studio Élégance</h3>
+                        <p class="card__type">Coiffure & Couleur</p>
+                        <p class="card__adresse">📍 Paris 11e</p>
+                        <div class="card__footer">
+                            <span class="card__note">⭐ 4.9</span>
+                            <button class="btn-primary">Réserver</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__image"></div>
+                    <div class="card__body">
+                        <h3>Beauty Zen</h3>
+                        <p class="card__type">Soin du visage & Massage</p>
+                        <p class="card__adresse">📍 Lyon 2e</p>
+                        <div class="card__footer">
+                            <span class="card__note">⭐ 4.8</span>
+                            <button class="btn-primary">Réserver</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__image"></div>
+                    <div class="card__body">
+                        <h3>Nail Art Studio</h3>
+                        <p class="card__type">Manucure & Pédicure</p>
+                        <p class="card__adresse">📍 Bordeaux Centre</p>
+                        <div class="card__footer">
+                            <span class="card__note">⭐ 4.7</span>
+                            <button class="btn-primary">Réserver</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </body>
 </html>
